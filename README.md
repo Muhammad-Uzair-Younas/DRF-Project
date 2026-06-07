@@ -25,30 +25,6 @@ A RESTful Book Management API built with Django REST Framework that allows users
 
 ---
 
-## Project Structure
-
-```text
-bookstore_api/
-│
-├── bookstore_api/
-│   ├── settings.py
-│   ├── urls.py
-│   └── ...
-│
-├── books/
-│   ├── models.py
-│   ├── serializers.py
-│   ├── views.py
-│   ├── urls.py
-│   └── ...
-│
-├── db.sqlite3
-├── manage.py
-└── README.md
-```
-
----
-
 ## Installation
 
 ### 1. Clone Repository
@@ -296,19 +272,6 @@ DELETE /bookstore/books/1/
 | PUT    | `/bookstore/books/<id>/`         | Full update          |
 | PATCH  | `/bookstore/books/<id>/`         | Partial update       |
 | DELETE | `/bookstore/books/<id>/`         | Delete book          |
-
----
-
-## Sample Book Model
-
-```python
-class book(models.Model):
-    title = models.CharField(max_length=255)
-    author = models.CharField(max_length=255)
-    isbn = models.CharField(max_length=20)
-    price = models.DecimalField(max_digits=10, decimal_places=2)
-    published_date = models.DateField()
-```
 
 ---
 
