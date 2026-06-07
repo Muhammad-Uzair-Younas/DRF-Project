@@ -1,6 +1,5 @@
 # Bookstore API
-
-A RESTful Book Management API built with Django REST Framework that allows users to create, retrieve, update, delete, and search books.
+This project is developed as part of my Django REST Framework practice. It provides CRUD operations for managing books and includes a search feature that allows users to find books by title or author.
 
 ## Features
 
