@@ -30,7 +30,7 @@ A RESTful Book Management API built with Django REST Framework that allows users
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/bookstore-api.git
+git clone [https://github.com/yourusername/bookstore-api.git](https://github.com/Muhammad-Uzair-Younas/DRF-Project.git)
 cd bookstore-api
 ```
 
